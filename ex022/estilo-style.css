@@ -11,27 +11,37 @@ header{
     height: 100%;
     background-size: 1360px;
     margin: 0px -70px 0px -7px;
-    height: 80px;
-    background-image: url(imagens/colors5.png);
+    height: 60px;
+    background-image: url(imagens/19892.jpg);
     background-repeat: no-repeat;
+ 
 }
 
 header h1{
+    color: rgb(92, 91, 80);
     font-family: 'Abril Fatface', serif;
-    text-align: center;
+    text-align: center ;
     font-size: 30px;
     
    
 }
 header h2{
+    color: rgb(92, 91, 80);
     font-family: 'Abril Fatface', serif;
     font-size: 20px;
     text-align: center;
 
 }
+header h3{
+    margin-top: -40px;
+    margin-left: 10px;
+   text-align: center center;
+}
 nav > a {
+    
+    text-align: center;
     font-family: 'Abril Fatface', serif;
-    font-size: 15px;
+    font-size: 17px;
     color: rgb(92, 91, 80);
     padding: 10px;
     text-decoration: none;
@@ -39,9 +49,17 @@ nav > a {
     
 
 }
+nav.logo{
+    padding-left: 1140px;
+    margin-top: -20px;
+    animation-duration: 2.0;
+    animation:reverse ;
+}
+
 div.vidio{
+    width: 100%;
     margin-bottom: 0px;
-    margin: -40px 0px -40px -75px;
+    margin: -40px 10px 0px -75px;
     padding: 0px;
     padding-bottom: 59%;
     position: relative;
@@ -51,24 +69,25 @@ div.vidio > iframe {
     position: absolute;
     top: 5%;
     left: 5%;
-    width: 1365px;
+    width: 102%;
     height: 90% ; 
     
 
 }
+
 main > img{
     margin: -10px 100px -5px -10px;
-    width: 1365px;
+    width: 102%;
     height: 90%;
 }
 main.mm{
   background-color: rgb(85, 146, 161);
-  width: 1365px;
+  width: 1356px;
   height: 550px;
 }
 main.mm > div{
     color: white;
-    font-family: 'Geologica', sans-serif;
+    font-family: 'Abril Fatface', serif;
     text-align: center;
     font-size: 15px;
     padding-top: 60px;
@@ -76,8 +95,77 @@ main.mm > div{
 main.mm > div#nr{
     margin-top: -10px;
 }
+main.mm > div#nr a {
+    margin: 0px 5px 0px 5px;
+    border-radius: 2px;
+}
 
-aside{
+aside.eras{
     margin: auto;
-   margin: 0px 30px 0px 30px ;
+   margin: 0px 30px 0px -10px ;
+}
+aside{
+    margin: 20px 500px 30px 500px;
+}
+
+aside.ts{
+    background-color: rgb(90, 180, 72);
+    margin: -360px 140px 10px -20px;
+    width: 1375px;
+  height: 350px;
+   
+}
+aside.fl{
+    background-color: rgb(228, 186, 49);
+    margin: -360px 140px 10px -20px;
+    width: 1375px;
+  height: 350px;
+}
+aside.sn{
+    background-color: rgb(115, 58, 168);
+    margin: -360px 140px 10px -20px;
+    width: 1375px;
+  height: 350px;
+}
+aside.red{
+    background-color: rgb(160, 44, 44);
+    margin: -360px 140px 10px -20px;
+    width: 1375px;
+  height: 350px;
+}
+aside.A{
+    background-color: rgb(85, 146, 161);
+    margin: -360px 140px 10px -20px;
+    width: 1375px;
+  height: 350px;
+}
+aside.rep{
+    background-color: rgb(17, 17, 16);
+    margin: -360px 140px 10px -20px;
+    width: 1375px;
+  height: 350px;
+}
+aside.lv{
+    background-color: rgb(202, 112, 160);
+    margin: -360px 140px 10px -20px;
+    width: 1375px;
+  height: 350px;
+}
+aside.fk{
+    background-color: rgb(85, 85, 85);
+    margin: -360px 140px 10px -20px;
+    width: 1375px;
+  height: 350px;
+}
+aside.em{
+    background-color: rgb(141, 89, 37);
+    margin: -360px 140px 10px -20px;
+    width: 1375px;
+  height: 350px;
+}
+aside.mn{
+    background-color: rgb(61, 61, 151);
+    margin: -360px 140px 10px -20px;
+    width: 1375px;
+  height: 350px;
 }
