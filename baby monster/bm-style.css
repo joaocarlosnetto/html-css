@@ -6,21 +6,37 @@
 }
 
 body{
-    color: white;
+    background-color: rgb(48, 48, 48);
 }
 
 article{
-    max-width: 600px;
-    margin: 0px 90px 0px 350px;
-    background-color: aqua;
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+    background-color: white;
     border-radius: 5px;
+    margin-top: 25px;
 }
 
 header{
-    background-image: url(imagens/Design\ sem\ nome.png);
-    background-size: 1350px;
+    background-color: #c92121;
     background-repeat: no-repeat;
-    margin: -180px 1px 0px 1px;
-    height: 280px;
-    min-width: 100px;
+    background-size: 100%;
+    height: 130px;
+    
+ 
+}
+
+
+p.bml{
+    
+   margin: -120px 500px -30px 530px;
+}
+
+p.yg{
+     margin: 10px -20px 10px 130px;
+}
+
+img{
+    width: 70%;
 }
