@@ -16,7 +16,7 @@ article{
     margin: auto;
     background-color: white;
     border-radius: 5px;
-    margin-top: 25px;
+    margin-top: -20px;
 }
 
 header{
@@ -26,6 +26,25 @@ header{
     height: 130px;
     
  
+}
+
+a{
+    font-family: 'Nova Square', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+nav > a > img{
+    margin: -80px 20px 40px 20px ;
+    width: 40px;
+    height: 40px;
+}
+
+nav#df{
+    margin: -80px 300px 65px 1000px;
+    color: black;
+    text-decoration: none;
 }
 
 h1{
