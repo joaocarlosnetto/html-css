@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulários</title>
+    <style>
+        input{
+            height: 23px;
+            width: 120px;
+        }
+        input.s{
+            height: 20px;
+            width: 70px;
+            margin: 1px 5px 1px 5px;
+        }
+        
+    </style>
 </head>
 <body>
     <h1>Teste de formulário</h1>
@@ -20,8 +32,8 @@
         </p>
         <p>
             <label for="imes">Período Letivo</label>
-            <input type="month" name="mes" id="imes"
-            value="2024-02">
+            <input type="number" name="mes" id="imes"
+             placeholder="trimestre" min="1" max="5">
         </p>
         <p>
             <label for="idia">Data da Prova</label>
@@ -32,8 +44,8 @@
             <input type="time" name="hora" id="ihora">
         </p>
         <p>
-            <input type="submit" value="enviar">
-            <input type="reset" value="limpar">
+            <input class="s" type="submit" value="enviar">
+            <input class="s" type="reset" value="limpar">
         </p>
     </form>
 
