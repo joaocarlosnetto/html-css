@@ -8,7 +8,7 @@
  telas extra grandes, tv: 1201px para mais */
 
 
- @media screen and (min-width: 320px) and (max-width:480px){
+ @media screen and (min-width: 320px) and (max-width:420px){
     body{
         background-image: url(../imagens/back-print.jpg);
     }
