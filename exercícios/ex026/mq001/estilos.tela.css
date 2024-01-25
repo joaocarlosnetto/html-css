@@ -36,10 +36,19 @@ menu li {
     border-radius: 2px;
 }
 
-menu li > a{
+a{
     text-decoration: none;
     color: white;
-    transform: ;
+    
+}
+
+menu li:hover{
+    background-color: rgb(139, 139, 139);
+    
+}
+
+menu li > a:hover{
+    color: black;
 }
 
 article{
