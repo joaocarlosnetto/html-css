@@ -9,6 +9,10 @@ html{
     font-size: 1em;
 }
 
+body{
+    background-color: rgb(197, 197, 197);
+}
+
 header{
     background-color: rgb(175, 174, 174);
     margin: 
@@ -21,18 +25,28 @@ header > h1{
 
 menu ul{
     list-style-type: none;
-    background-color: gray;
+    
 }
 
-menu li{
-    background-color: rgb(49, 49, 49);
+menu li {
+    background-color: rgb(100, 100, 100);
     color: white;
     display: inline-block;
     padding: 10px;
+    border-radius: 2px;
+}
+
+menu li > a{
+    text-decoration: none;
+    color: white;
+    transform: translate(-3px, -3px);
 }
 
 article{
     width: 600px;
     display: block;
     margin: auto;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
 }
