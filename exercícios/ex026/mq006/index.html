@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilo/style.css" media="all">
     <link rel="stylesheet" href="estilo/mediaquery.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <span id="burgeuer" class="material-symbols-outlined" onclick="clickMenu ()">
@@ -46,6 +46,16 @@
             </article>
         </main>
         <script>
+
+            function mudouTamanho(){
+                if (window.style.display >= 480){
+                    itens.style.display = 'block'
+                }
+                else {
+                    itens.style.display = 'none'
+                }
+            }
+
             function clickMenu(){
                 if (itens.style.display == 'block') {
                     itens.style.display = 'none'
