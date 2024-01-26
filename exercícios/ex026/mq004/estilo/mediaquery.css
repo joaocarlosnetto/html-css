@@ -1,14 +1,15 @@
 @charset "UTF-8";
 
  /* Typical decive Breakpoints
- telas pequenas: 320px-480px
- celular: 481px-768px
- tablets: 769px-1024px
- leptos: 1025px 1200px
+ telas pequenas: 200px-319px
+ celular: 320px-480px
+ tablets: 481px-768px
+ leptos: 769px 1024px
+ desltops: 1025px-1200
  telas extra grandes, tv: 1201px para mais */
 
 
- @media screen and (min-width: 120px) and (max-width:200px){
+ @media screen and (min-width: 200px) and (max-width: 319px){
     body{
         background-image: url(../imagens/back-print.jpg);
     }
@@ -20,7 +21,7 @@
  }
  @media screen and (min-width: 320px) and (max-width:480px){
     body{
-        background-image: url(../imagens/back-tablet.jpg);
+        background-image: url(../imagens/back-phone.jpg);
     }
 
     img#phone {display: block;}

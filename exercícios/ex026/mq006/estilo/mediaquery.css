@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 /* Typical decive Breakpoints
- telas pequenas: 120px-200px
- celular: 320px-599px
- tablets: 600px-768px
- leptos: 769px-1024px
- desktops: 1025px-1200px
+ telas pequenas: 200px-319px
+ celular: 320px-480px
+ tablets: 481px-768px
+ leptos: 769px 1024px
+ desltops: 1025px-1200
  telas extra grandes, tv: 1201px para mais */
 
-@media screen and (min-width:600px){
+@media screen and (min-width:481px){
     span#burgeuer{
         display: none;
     }
