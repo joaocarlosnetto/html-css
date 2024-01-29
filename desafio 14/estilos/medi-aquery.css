@@ -10,17 +10,18 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px){
     body, html{
-        background-color: #E8B6AD;
+        background-color: #e4c8d6;
     }
     section#Login{
         width: 80vw;
-        box-shadow: 0px 0px  10px #9c756e;
+        height: 75%;
+        box-shadow: 0px 0px  10px #a5768d;
     }
     section#Login > div#imagen{
         float: left;
         width: 30%;
         height: 100vh;
-        background-position: center;
+        background-position: right top;
     }
 
     section#Login > div#formulário{
@@ -35,7 +36,7 @@
     }
     section#Login{
         width: 80vw;
-        height: 70vh;
+        height: 75%;
         box-shadow: 0px 0px  10px #5e8a84;
     }
     section#Login > div#imagen{
@@ -48,5 +49,37 @@
     section#Login > div#formulário{
         float: right;
         width: 60%;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    body, html{
+        background-color: #D1C9E8;
+    }
+    section#Login{
+        width: 80vw;
+        height: 80vh;
+        box-shadow: 0px 0px  10px #5d537a;
+    }
+    section#Login > div#imagen{
+        float: right;
+        width: 40%;
+        height: 100vh;
+        background-position: center;
+    }
+
+    section#Login > div#formulário{
+        float: left;
+        width: 60%;
+    }
+
+    div#formulário > h1{
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
+    
+    div#formulário > p{
+        font-size: 1em;
     }
 }

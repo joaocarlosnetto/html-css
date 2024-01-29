@@ -3,7 +3,7 @@
 /*
     Paleta de cores:
     #EBE7AE
-    #E8B6AD
+    #e4c8d6
     #A7EBE2
     #D1C9E8
 */
@@ -56,4 +56,13 @@ section#Login > div#imagen{
 section#Login > div#formulário{
     display: block;
     padding: 10px;
+}
+
+div#formulário > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulário > p{
+    font-size: 0.8em;
 }
