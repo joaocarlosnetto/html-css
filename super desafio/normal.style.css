@@ -71,7 +71,7 @@ menu > ul > li > a:hover{
 }
 
 p#link{
-    margin-top: -105px;
+    margin-top: 400px;
     height: 30px;
     width: 100%;
     background-color: #0d202c;
@@ -79,7 +79,7 @@ p#link{
 
 article{
     background-color: #ffffff;
-    margin-top: 400px;
+    margin-top: 100px;
     height: 300px;
     width: 100%;
 }
@@ -88,8 +88,9 @@ div#grup{
     background-image: url(imagens/membros.jpeg);
     width: 100%;
     height: 270px;
-    background-size: 500px;
+    background-size: 400px;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 section{
@@ -99,9 +100,24 @@ section{
     padding-top: 10px;
 }
 
-div.soyeon{
-    margin-top: 10px;
-    border-radius: 10px;
+div.soyeon-m{
+    display: none;
+}
+
+div.minnie-m{
+    display: none;
+}
+
+div.shuhua-m{
+    display: none;
+}
+
+div.yuqi-m{
+    display: none;
+}
+
+div.miyeon-m{
+    display: none;
 }
 
 p#text{
