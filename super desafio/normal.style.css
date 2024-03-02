@@ -80,15 +80,16 @@ p#link{
 article{
     background-color: #ffffff;
     margin-top: 100px;
-    height: 300px;
+    height: 270px;
     width: 100%;
 }
 
 div#grup{
+    margin-top: -100px;
     background-image: url(imagens/membros.jpeg);
     width: 100%;
     height: 270px;
-    background-size: 400px;
+    background-size: 500px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -98,26 +99,6 @@ section{
     width: 100%;
     height: 2110px;
     padding-top: 10px;
-}
-
-div.soyeon-m{
-    display: none;
-}
-
-div.minnie-m{
-    display: none;
-}
-
-div.shuhua-m{
-    display: none;
-}
-
-div.yuqi-m{
-    display: none;
-}
-
-div.miyeon-m{
-    display: none;
 }
 
 p#text{
