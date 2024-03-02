@@ -28,21 +28,25 @@
     }
 
     div.minnie{
+        display: none;
         margin-top: 20px;
         margin-bottom: 20px;
       }
     
     div.shuhua{
+        display: none;
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
     div.yuqi{
+        display: none;
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
     div.miyeon{
+        display: none;
         margin-top: 20px;
         margin-bottom: 20px;
     }  
@@ -56,11 +60,55 @@
         display: block;
         margin: auto;
         background-image: url(imagens/soyeon-m.jpg);
-        width: 400px;
-        height: 400px;
-        background-size: 400px;
+        width: 100%;
+        height: 250px;
+        background-size: 700px;
+        background-position: center;
     }
     
+    div#minnie-m{
+        display: block;
+        margin: auto;
+        background-image: url(imagens/minnie-m.png);
+        width: 100%;
+        height: 250px;
+        background-size: 700px;
+        background-position: center;
+    }
+
+    div#shuhua-m{
+        display: block;
+        margin: auto;
+        background-image: url(imagens/shuhua-m.jpg);
+        width: 100%;
+        height: 250px;
+        background-size: 700px;
+        background-position: center;
+    }
+
+    div#yuqi-m{
+        display: block;
+        margin: auto;
+        background-image: url(imagens/yuqi-m.jpg);
+        width: 100%;
+        height: 250px;
+        background-size: 700px;
+        background-position: center;
+    }
+
+    div#miyeon-m{
+        display: block;
+        margin: auto;
+        background-image: url(imagens/miyeon-m.png);
+        width: 100%;
+        height: 250px;
+        background-size: 700px;
+        background-position: center;
+    }
+
+    section{
+        height: 2500px;
+    }
 
     p#text{
     }
