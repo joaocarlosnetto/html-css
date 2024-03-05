@@ -20,6 +20,17 @@
         background-position: center top;
     }
 
+    p#logo{
+        margin-top: -70px;
+    }
+
+    p#logo > img{
+        display: block;
+        margin: auto;
+        width: 100px;
+        height: 100px;
+    }
+
     p#link{
         height: 40px;
     }
@@ -34,6 +45,7 @@
 
     article{
         height: 43vh;
+        padding-bottom: 50px;
     }
 
     div.soyeon-pq{
@@ -130,238 +142,124 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+
     body{
-        background-attachment: fixed;
-        display: block;
-        margin: auto;
-        background-image: url(imagens/capa-superlady.png);
         background-size: 600px;
-        background-repeat: no-repeat;
-        background-position: center top;
-    }
-
-    p#link{
-        height: 40px;
+        background-color: #020204;
     }
 
     div#grup{
+        padding-top: 20px;
+        margin-top: -120px;
+        background-size: 850px;
+        width: 100%;
+        height: 100%;
+        height: 250px;
+    }
+
+    article{
+        padding-bottom: 40px;
+    }
+
+    p#link{
+        padding-top: 10px;
+    }
+
+    div.soyeon-pq{
+        display: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    div.minnie{
+        display: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    
+    div.shuhua{
+        display: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    div.yuqi{
+        display: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    div.miyeon{
+        display: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }  
+
+    img{
+        width: 300px;
+        height: 210px;
+    }
+    
+    div#soyeon-m{
+        display: block;
+        margin: auto;
+        background-image: url(imagens/soyeon-m.jpg);
+        width: 100%;
+        height: 250px;
+        background-size: 700px;
+        background-position: center;
+    }
+    
+    div#minnie-m{
+        display: block;
+        margin: auto;
+        background-image: url(imagens/minnie-m.png);
+        width: 100%;
+        height: 250px;
+        background-size: 700px;
+        background-position: center;
+    }
+
+    div#shuhua-m{
+        display: block;
+        margin: auto;
+        background-image: url(imagens/shuhua-m.jpg);
+        width: 100%;
+        height: 250px;
+        background-size: 700px;
+        background-position: center;
+    }
+
+    div#yuqi-m{
+        display: block;
+        margin: auto;
+        background-image: url(imagens/yuqi-m.jpg);
+        width: 100%;
+        height: 250px;
+        background-size: 650px;
+        background-position: center;
+    }
+
+    div#miyeon-m{
+        display: block;
+        margin: auto;
+        background-image: url(imagens/miyeon-m.png);
+        width: 100%;
+        height: 250px;
+        background-size: 680px;
+        background-position: center;
+    }
+
+    section{
+        height: 1800px;
+    }
+
+    p#text{
+        display: block;
+        margin: auto;
         margin-top: 10px;
-        background-size: 300px;
-        width: 100%;
-        height: 100%;
-    
+        margin-bottom: 10px;
+        max-width: 650px;
     }
 
-    article{
-       height: 500px;;
-    }
-
-    div.soyeon-pq{
-        display: none;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    div.minnie{
-        display: none;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
-    
-    div.shuhua{
-        display: none;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    div.yuqi{
-        display: none;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    div.miyeon{
-        display: none;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }  
-
-    img{
-        width: 300px;
-        height: 210px;
-    }
-    
-    div#soyeon-m{
-        display: block;
-        margin: auto;
-        background-image: url(imagens/soyeon-m.jpg);
-        width: 100%;
-        height: 250px;
-        background-size: 700px;
-        background-position: center;
-    }
-    
-    div#minnie-m{
-        display: block;
-        margin: auto;
-        background-image: url(imagens/minnie-m.png);
-        width: 100%;
-        height: 250px;
-        background-size: 700px;
-        background-position: center;
-    }
-
-    div#shuhua-m{
-        display: block;
-        margin: auto;
-        background-image: url(imagens/shuhua-m.jpg);
-        width: 100%;
-        height: 250px;
-        background-size: 700px;
-        background-position: center;
-    }
-
-    div#yuqi-m{
-        display: block;
-        margin: auto;
-        background-image: url(imagens/yuqi-m.jpg);
-        width: 100%;
-        height: 250px;
-        background-size: 650px;
-        background-position: center;
-    }
-
-    div#miyeon-m{
-        display: block;
-        margin: auto;
-        background-image: url(imagens/miyeon-m.png);
-        width: 100%;
-        height: 250px;
-        background-size: 680px;
-        background-position: center;
-    }
-
-    section{
-        margin-top: 30px;
-        height: 2100px;
-    }
-
-    p#text{
-    }    body{
-        background-attachment: fixed;
-        display: block;
-        margin: auto;
-        background-image: url(imagens/capa-superlady.png);
-        background-size: 600px;
-        background-repeat: no-repeat;
-        background-position: center top;
-    }
-
-    p#link{
-        height: 40px;
-    }
-
-    div#grup{
-        margin-top: -110px;
-        background-size: 750px;
-        width: 100%;
-        height: 100%;
-    
-    }
-
-    article{
-        height: 43vh;
-    }
-
-    div.soyeon-pq{
-        display: none;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    div.minnie{
-        display: none;
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
-    
-    div.shuhua{
-        display: none;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    div.yuqi{
-        display: none;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    div.miyeon{
-        display: none;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }  
-
-    img{
-        width: 300px;
-        height: 210px;
-    }
-    
-    div#soyeon-m{
-        display: block;
-        margin: auto;
-        background-image: url(imagens/soyeon-m.jpg);
-        width: 100%;
-        height: 250px;
-        background-size: 700px;
-        background-position: center;
-    }
-    
-    div#minnie-m{
-        display: block;
-        margin: auto;
-        background-image: url(imagens/minnie-m.png);
-        width: 100%;
-        height: 250px;
-        background-size: 700px;
-        background-position: center;
-    }
-
-    div#shuhua-m{
-        display: block;
-        margin: auto;
-        background-image: url(imagens/shuhua-m.jpg);
-        width: 100%;
-        height: 250px;
-        background-size: 700px;
-        background-position: center;
-    }
-
-    div#yuqi-m{
-        display: block;
-        margin: auto;
-        background-image: url(imagens/yuqi-m.jpg);
-        width: 100%;
-        height: 250px;
-        background-size: 650px;
-        background-position: center;
-    }
-
-    div#miyeon-m{
-        display: block;
-        margin: auto;
-        background-image: url(imagens/miyeon-m.png);
-        width: 100%;
-        height: 250px;
-        background-size: 680px;
-        background-position: center;
-    }
-
-    section{
-        height: 2100px;
-    }
-
-    p#text{
-    }
 }
