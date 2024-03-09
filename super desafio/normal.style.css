@@ -77,11 +77,13 @@ menu > ul > li > a{
     color: white;
     text-decoration: none;
     margin-left: 70%;
+    text-shadow: 1px 1px 6px black;
 }
 
 menu > ul > li > a:hover{
     color: #0d202c;
     transition: 0.3s;
+    text-shadow: none;
 }
 
 p#link{
