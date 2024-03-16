@@ -14,11 +14,7 @@ header{
     background-size: 200px;
     background-repeat: no-repeat;
     background-position: center center;
-}
-
-span#burguer{
-    cursor: pointer;
-    margin: 23px 0px 0px 15px;
+    margin-top: 10px;
 }
 
 menu#itens{
@@ -29,10 +25,10 @@ div#grup{
     background-image: url(img/grup.webp);
     display: block;
     margin: auto;
-    margin-top: 5px;
-    width: 95%;
-    height: 260px;
-    background-size: 470px;
+    margin-top: 10px;
+    width: 100%;
+    height: 270px;
+    background-size: 485px;
     border-radius: 0px 0px 0px 0px;
     box-shadow: none;
 }
@@ -82,4 +78,28 @@ div.p2{
     background-size: 300px;
     background-position: center center;
     transition: 0.8s;
+}
+
+p#sociais{
+    margin-top: 30px;
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(to left, rgb(109, 109, 109), rgb(168, 168, 168));
+}
+
+section.sociais{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section.sociais > a{
+    background-color: pink;
+    border-radius: 5px;
+    padding: 2.5px 0px 0px 0px;
+    margin: 0px 5px 0px 5px;
+}
+
+section.sociais > a:hover{
+    color: aliceblue;
 }
