@@ -39,6 +39,25 @@
         height: 390px;
     }
 
+    section.sociais > a{
+        background-color: white;
+        margin: 0px 10px 0px 10px;
+    }
+
+    section.sociais > a > img{
+        width: 30px;
+    }
+
+    section.sociais > a > img:hover{
+        background-color: rgb(253, 174, 187);
+        transition: 0.2s;
+        border-radius: 7px;
+    }
+
+    section#txt{
+        font-size: 1em;
+    }
+
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -46,6 +65,30 @@
     div#grup{
         background-size: cover;
         height: 450px;
+    }
+
+    section.sociais > a{
+        background-color: white;
+        margin: 0px 15px 0px 15px;
+    }
+
+    section.sociais > a > img{
+        margin: 10px 0px 10px 0px;
+        width: 35px;
+    }
+
+    section.sociais > a > img:hover{
+        background-color: rgb(253, 174, 187);
+        transition: 0.2s;
+        border-radius: 7px;
+    }
+
+    section#txt{
+        display: block;
+        margin: auto;
+        font-size: 1em;
+        max-width: 800px;
+        border-radius: 10px;
     }
 
 }
