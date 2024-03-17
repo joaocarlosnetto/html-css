@@ -35,7 +35,7 @@ article#grup{
 
 div.grup{
     background-image: url(../img/p.pink-venom.grup.webp);
-    background-size: 485px;
+    background-size: cover;
     height: 340px;
     width: 100%;
 }
