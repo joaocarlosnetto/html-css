@@ -10,7 +10,7 @@ body{
     display: block;
     margin: auto;
     background-image: url(../img/fundo.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center top ;
 }
@@ -35,7 +35,7 @@ article#grup{
 
 div.grup{
     background-image: url(../img/p.pink-venom.grup.webp);
-    background-size: cover;
+    background-size: contain;
     height: 340px;
     width: 100%;
 }
