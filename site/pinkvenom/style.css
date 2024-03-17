@@ -9,7 +9,7 @@ body{
     display: block;
     margin: auto;
     background-image: url(../img/fundo.png);
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center center top ;
 }
