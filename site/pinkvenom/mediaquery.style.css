@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* Typical decive Breakpoints
+ telas pequenas: 200px-319px
+ celular: 320px-480px
+ tablets: 481px-768px
+ leptos: 769px 1024px
+ desltops: 1025px-1200
+ telas extra grandes, tv: 1201px para mais */
+ @media screen and (min-width: 481px) and (max-width: 768px) {
+    body{
+        display: block;
+        margin: auto;
+        background-size: cover;
+        background-position: center center;
+    }
+ }

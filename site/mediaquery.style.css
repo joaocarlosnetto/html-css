@@ -91,14 +91,122 @@
         border-radius: 10px;
     }
 
+    div.p1{
+        display: inline-block;
+        margin: 10px 30px 20px 30px;
+        width: 200px;
+        background-size: 550px;
+        transition: 0.5s;
+    }
+
+    div.p1:hover{
+        width: 600px;
+        transition: 0.9s;
+    }
+
+    div.p2{
+        display: inline-block;
+        width: 200px;
+        background-size: 550px;
+        transition: 0.5s;
+    }
+
+    div.p2:hover{
+        width: 600px;
+        transition: 0.9s;
+    }
+
+    div.link{
+
+        width: 200px;
+        transition: 0.5s;
+    }
+
+    div.link:hover{
+        width: 600px;
+        transition: 0.9s;
+    }
+
+    footer{
+        height: 400px;
+    }
+
 }
 
 @media screen and (min-width: 1201px){
     
     div#grup{
         background-size: cover;
-        height: 520px;
+        height: 480px;
     }
+
+    section.sociais > a{
+        background-color: white;
+        margin: 0px 15px 0px 15px;
+    }
+
+    section.sociais > a > img{
+        margin: 10px 0px 10px 0px;
+        width: 35px;
+    }
+
+    section.sociais > a > img:hover{
+        background-color: rgb(253, 174, 187);
+        transition: 0.2s;
+        border-radius: 7px;
+    }
+
+    section#txt{
+        display: block;
+        margin: auto;
+        font-size: 1em;
+        max-width: 800px;
+        border-radius: 10px;
+    }
+
+    div.p1{
+        display: inline-block;
+        margin: auto;
+        margin: 10px 30px 20px 30px;
+        width: 200px;
+        background-size: 550px;
+        transition: 0.5s;
+        height: 500px;
+    }
+
+    div.p1:hover{
+        width: 600px;
+        transition: 0.9s;
+    }
+
+    div.p2{
+        display: inline-block;
+        width: 200px;
+        background-size: 550px;
+        transition: 0.5s;
+        height: 500px;
+    }
+
+    div.p2:hover{
+        width: 600px;
+        transition: 0.9s;
+    }
+
+    div.link{
+
+        width: 200px;
+        transition: 0.5s;
+    }
+
+    div.link:hover{
+        width: 600px;
+        transition: 0.9s;
+    }
+
+    footer{
+        height: 400px;
+    }
+
 
 }
 
