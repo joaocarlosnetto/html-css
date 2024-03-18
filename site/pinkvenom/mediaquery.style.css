@@ -7,12 +7,23 @@
  leptos: 769px 1024px
  desltops: 1025px-1200
  telas extra grandes, tv: 1201px para mais */
- =
+ 
  @media screen and (min-width: 481px) and (max-width: 768px) {
     body{
         display: block;
         margin: auto;
+ }
+
+    article#grup{
+    }
+
+    div.grup{
+        width: 100%;
         background-size: cover;
-        background-position: center center;
+        height: 400px;
+    }
+
+    article#solo{
+        height: 100%;
     }
  }
