@@ -55,3 +55,23 @@ p.txt{
     color: rgb(34, 34, 34);
     font-size: 0.9em;
 }
+
+article#album{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding-top: 20px;
+}
+
+p.listen > img{
+    width: 200px;
+    margin: 0px 0px 5px 20px;
+}
+
+div.album > a >img{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 300px;
+    border-radius: 5px;
+}
