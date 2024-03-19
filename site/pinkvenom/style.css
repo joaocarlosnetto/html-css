@@ -61,6 +61,7 @@ article#album{
     height: 100%;
     background-color: black;
     padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 p.listen > img{
@@ -74,4 +75,32 @@ div.album > a >img{
     margin-top: 10px;
     width: 300px;
     border-radius: 5px;
+}
+
+article#mv{
+    width: 100%;
+    height: 400px;
+    background-color: pink;
+    padding-top: 70px;
+}
+
+div.mv > p#mv{
+   text-align: center;
+   font-size: 1.2em;
+}
+
+div.mv > a > img{
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+div.mv > a > img:hover{
+    background-color: white;
+    transition: 0.5s;
 }
