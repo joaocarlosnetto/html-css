@@ -75,6 +75,21 @@
         max-width: 600px;
         margin-top: 5px;
     }
+
+    p.listen > img{
+        width: 200px;
+        margin: 0px 0px 5px 35px;
+    }
+
+    div.album > a > img{
+        width: 330px;
+    }
+
+    div.album > a > img:hover{
+        width: 340px;
+        box-shadow: 5px 3px 10px rgb(90, 90, 90);
+        transition: 0.2s;
+    }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -96,12 +111,7 @@
 
     article#solo{
         height: 100%;
-        float: left;
         padding-bottom: 20px;
-    }
-
-    div.solo{
-        float: left;
     }
 
     div.solo > img{
@@ -118,6 +128,22 @@
         margin-top: 5px;
         text-align: center;
         max-width: 600px;
+    }
+
+    div.album > a > img{
+        margin-top: -50px;
+        width: 350px;
+    }
+
+    div.album > a > img:hover{
+        width: 360px;
+        box-shadow: 5px 3px 10px rgb(90, 90, 90);
+        transition: 0.2s;
+    }
+
+    p.listen > img{
+        width: 300px;
+        margin-left: 40px;
     }
 }
 
@@ -162,5 +188,23 @@
         margin-top: 5px;
         text-align: center;
         max-width: 600px;
+    }
+
+    div.album > a > img{
+        margin-top: -50px;
+        width: 390px;
+        transition: 0.2s;
+    }
+
+    div.album > a > img:hover{
+        width: 400px;
+        box-shadow: 5px 3px 10px rgb(90, 90, 90);
+        transition: 0.2s;
+    }
+
+    p.listen > img{
+        width: 320px;
+        margin-left: 50px;
+        margin-top: 20px;
     }
 }
