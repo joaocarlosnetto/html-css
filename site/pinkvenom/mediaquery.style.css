@@ -128,7 +128,7 @@
     }
 
     p.name:hover{
-        color: rgb(194, 95, 111);
+        color: white;
         cursor: pointer;
         transition: 0.2s;
     }
@@ -199,7 +199,7 @@
     }
 
     p.name:hover{
-        color: rgb(194, 95, 111);
+        color: white;
         cursor: pointer;
         transition: 0.2s;
     }
