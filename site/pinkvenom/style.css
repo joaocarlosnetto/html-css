@@ -9,7 +9,7 @@
 body{
     display: block;
     margin: auto;
-    background-image: url(../img/fundo.png);
+    background-image: url(../img/fundo.webp);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center center top ;
@@ -50,10 +50,26 @@ div.solo > img{
     margin: 10px 0px 0px 0px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p.name{
+    margin: 20px 0px 15px 0px;
+    text-align: center;
+    font-family: "Spectral SC", serif;
+    font-size: 1.5em;
+}
+
+
+
 p.txt{
-    margin: 5px 10px 5px 10px;
+    margin: 10px 10px 5px 10px;
     color: rgb(34, 34, 34);
     font-size: 0.9em;
+    font-family: "Spectral SC", serif;
+    text-align: center;
 }
 
 article#album{

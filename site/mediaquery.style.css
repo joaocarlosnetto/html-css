@@ -39,6 +39,11 @@
         height: 390px;
     }
 
+    article#title{
+        font-size: 1.2em;
+        margin: 20px 0px 30px 0px;
+    }
+
     section.sociais > a{
         background-color: white;
         margin: 0px 10px 0px 10px;
@@ -65,6 +70,11 @@
     div#grup{
         background-size: cover;
         height: 450px;
+    }
+
+    article#title{
+        font-size: 1.3em;
+        margin: 30px 0px 30px 0px;
     }
 
     section.sociais > a{
@@ -138,6 +148,11 @@
     div#grup{
         background-size: cover;
         height: 480px;
+    }
+
+    article#title{
+        font-size: 1.3em;
+        margin: 20px 0px 30px 0px;
     }
 
     section.sociais > a{

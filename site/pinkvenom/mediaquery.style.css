@@ -119,7 +119,18 @@
         display: block;
         margin: auto;
         margin-top: 10px;
-        max-width: 650px;
+        max-width: 60%;
+    }
+
+    p.name{
+        font-size: 1.6em;
+        transition: 0.2s;
+    }
+
+    p.name:hover{
+        color: rgb(194, 95, 111);
+        cursor: pointer;
+        transition: 0.2s;
     }
 
     p.txt{
@@ -179,15 +190,27 @@
         margin: auto;
         border-radius: 10px;
         margin-top: 10px;
-        max-width: 650px;
+        max-width: 70%;
+    }
+
+    p.name{
+        font-size: 1.7em;
+        transition: 0.2s;
+    }
+
+    p.name:hover{
+        color: rgb(194, 95, 111);
+        cursor: pointer;
+        transition: 0.2s;
     }
 
     p.txt{
         display: block;
         margin: auto;
-        margin-top: 5px;
+        margin-top: 10px;
         text-align: center;
-        max-width: 600px;
+        max-width: 700px;
+        font-size: 1.1em;
     }
 
     div.album > a > img{
