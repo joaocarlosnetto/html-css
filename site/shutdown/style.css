@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(../img/fundo.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header > div{ 
+    background-image: linear-gradient(rgba(255, 192, 203, 0.815), rgba(255, 255, 255, 0));
+    height: 110px;
+    width: 100%;
+}
+
+header > div > img{
+    display: block;
+    margin: auto;
+}
