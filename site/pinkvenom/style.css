@@ -55,21 +55,71 @@ a{
     color: black;
 }
 
-p.name{
+p#name{
     margin: 20px 0px 15px 0px;
     text-align: center;
     font-family: "Spectral SC", serif;
     font-size: 1.5em;
 }
 
+img#rose{
+    width: 600px;
+    height: 400px;
+}
 
+img#jisoo{
+    width: 600px;
+    height: 400px;
+}
 
-p.txt{
+img#jennie{
+    width: 600px;
+    height: 400px;
+}
+
+img#lisa{
+    width: 600px;
+    height: 400px;
+}
+
+p#txtr{
+    display: none;
+    text-align: center;
     margin: 10px 10px 5px 10px;
     color: rgb(34, 34, 34);
     font-size: 0.9em;
     font-family: "Spectral SC", serif;
+
+}
+
+p#txts{
+    display: none;
     text-align: center;
+    margin: 10px 10px 5px 10px;
+    color: rgb(34, 34, 34);
+    font-size: 0.9em;
+    font-family: "Spectral SC", serif;
+
+}
+
+p#txtj{
+    display: none;
+    text-align: center;
+    margin: 10px 10px 5px 10px;
+    color: rgb(34, 34, 34);
+    font-size: 0.9em;
+    font-family: "Spectral SC", serif;
+
+}
+
+p#txtl{
+    display: none;
+    text-align: center;
+    margin: 10px 10px 5px 10px;
+    color: rgb(34, 34, 34);
+    font-size: 0.9em;
+    font-family: "Spectral SC", serif;
+
 }
 
 article#album{
